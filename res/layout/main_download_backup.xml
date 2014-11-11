@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:gravity="center">
+
+		<TableRow android:gravity="center" >
+
+		</TableRow>
+	    
+		<TableRow android:gravity="center" >
+
+		    <EditText
+		        android:id="@+id/authkey"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_span="1"
+		        android:minWidth="280px"
+		        android:minHeight="10px"
+		        android:textSize="24px"
+		        android:hint="检票账号" >
+
+		        <requestFocus />
+		    </EditText>
+		</TableRow>
+
+	<TableRow android:gravity="center">
+		<EditText android:id="@+id/secret" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_span="1"
+			android:minWidth="280px"
+			android:minHeight="10px"
+			android:textSize="24px"
+			android:hint="检票密码"
+			android:password="true">
+		</EditText>
+	</TableRow>
+	<TableRow android:gravity="center">
+
+	    <CheckBox
+	        android:id="@+id/ghost"
+	        android:layout_width="100px"
+	        android:layout_height="wrap_content"
+	        android:text="单机版"
+	        android:textColor="@color/result_minor_text" />
+
+   	    <CheckBox
+   	        android:id="@+id/rempwd"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:checked="true"
+   	        android:text="记住密码"
+   	        android:textColor="@color/result_minor_text" />
+	    
+	</TableRow>
+	<TableRow android:gravity="center">
+
+	<Button
+	    android:id="@+id/login"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/thick"
+	    android:gravity="center"
+	    android:src="@drawable/logo_1"
+	    android:text="登 录"
+	    android:textColor="@color/encode_view" />
+
+	</TableRow>
+	</TableLayout>
+</LinearLayout>

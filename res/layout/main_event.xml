@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	
+	android:gravity="center">	
+	
+    <TextView
+	    android:id="@+id/TitleBar"
+	    android:text="验票"
+	    android:textSize="20dp"
+	    android:textColor="@color/encode_view"
+	    android:background="#007ec9"
+	    android:gravity="center_vertical|center"
+	    android:layout_width="match_parent"
+	    android:layout_height="44dp" >
+	</TextView>
+    
+    
+	<TextView 
+	    android:id="@+id/auth" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_span="2" 
+		android:visibility="gone" />
+	
+	<TextView 
+	    android:id="@+id/code" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_span="2" 
+		android:visibility="gone" />
+	<TextView 
+	    android:id="@+id/ghost" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_span="2" 
+		android:visibility="gone" />	
+	
+	
+				
+	<TableLayout 
+	    android:background="@drawable/bg" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:orientation="vertical">
+		
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:gravity="center"
+	        android:layout_marginTop="0dp">
+
+	        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="70dp"
+	            android:layout_height="35dp"
+	            android:layout_margin="5dp"
+	            android:background="@drawable/thick"
+	            android:text="扫描"
+	            android:textColor="@color/encode_view" />
+			
+			<Button 
+			    android:id="@+id/button3" 
+			    android:layout_width="70dp"
+				android:layout_height="35dp" 
+				android:text="统计" 
+				android:layout_margin="5dp"
+				android:textColor="@color/encode_view"
+				android:background="@drawable/thick" />
+			<Button 
+			    android:id="@+id/button4" 
+			    android:layout_width="70dp"
+				android:layout_height="35dp" 
+				android:gravity="center"
+				android:text="更新" 
+				android:layout_margin="5dp"
+				android:textColor="@color/encode_view"
+				android:background="@drawable/thick" />
+				
+			<Button android:id="@+id/button5" 
+			    android:layout_width="70dp"
+				android:layout_height="35dp" 
+				android:gravity="center"
+				android:text="上传" 
+				android:layout_margin="5dp"
+				android:textColor="@color/encode_view"
+				android:background="@drawable/thick" />	
+					
+		</LinearLayout>
+	    
+	    
+		<LinearLayout 
+		    android:gravity="center"
+		    android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			<TextView
+			    android:id="@+id/jieguo"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:gravity="center"
+			    android:padding="15dp"
+			    android:text=""
+			    android:textColor="@color/help_view"
+			    android:textSize="20dp" />
+
+			<TextView
+			    android:id="@+id/ticket"
+			    android:layout_width="wrap_content"
+			    android:minWidth="220dp"
+			    android:layout_height="30dp"
+			    android:layout_span="2"
+			    android:textColor="@color/help_view"
+			    android:textSize="15dp" />
+
+			<TextView
+			    android:id="@+id/password"
+			    android:layout_width="wrap_content"
+			    android:minWidth="220dp"
+			    android:layout_height="30dp"
+			    android:layout_span="2"
+			    android:textColor="@color/help_view"
+			    android:textSize="15dp" />
+
+			<TextView
+			    android:id="@+id/price"
+			    android:layout_width="wrap_content"
+			    android:minWidth="220dp"
+			    android:layout_height="30dp"
+			    android:layout_span="2"
+			    android:textColor="@color/help_view"
+			    android:textSize="15dp" />
+
+			<TextView
+			    android:id="@+id/tel"
+			    android:layout_width="wrap_content"
+			    android:minWidth="220dp"
+			    android:layout_height="30dp"
+			    android:layout_span="2"
+			    android:textColor="@color/help_view"
+			    android:textSize="15dp" />
+
+			<TextView
+			    android:id="@+id/email"
+			    android:layout_width="wrap_content"
+			    android:minWidth="220dp"
+			    android:layout_height="30dp"
+			    android:layout_span="2"
+			    android:textColor="@color/help_view"
+			    android:textSize="15dp" />
+
+			<TextView
+			    android:id="@+id/checktime"
+			    android:layout_width="wrap_content"
+			    android:minWidth="220dp"
+			    android:layout_height="30dp"
+			    android:layout_span="2"
+			    android:textColor="@color/help_view"
+			    android:textSize="15dp" />
+
+		</LinearLayout>	
+					
+		<TableRow 
+		    android:layout_marginTop="30dp"
+		    android:gravity="center_vertical|center">
+			
+		    <EditText
+				android:id="@+id/edittext1"
+				android:layout_width="200dp"
+				android:layout_height="35dp"
+		        android:hint="检票账号"
+		        android:textColor="#324f85"
+		        android:textSize="16dp"
+		        android:paddingLeft="5dp"
+		        android:background="@drawable/border"
+		        android:ems="10" >
+		    </EditText>
+			
+			<Button android:id="@+id/button2"
+				android:layout_height="35dp" 
+				android:layout_margin="5dp" 
+				android:text="验 票" 
+				android:textColor="@color/encode_view"
+				android:background="@drawable/thick" />
+
+		</TableRow>
+		
+	</TableLayout>
+</LinearLayout>

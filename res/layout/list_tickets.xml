@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01" 
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+	
+		    
+		    <TextView 
+		        android:id="@+id/id"
+		        android:gravity="right|center_vertical"
+		        android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginRight="12dp"
+		        android:textColor="@color/help_view" />
+			<TextView 
+			    android:id="@+id/pwd"
+			    android:textColor="@color/help_view"
+			    android:layout_width="wrap_content"
+			    android:gravity="center_vertical"
+			    android:layout_height="30dp"
+			    android:layout_marginRight="12dp"/>
+			<TextView 
+			    android:id="@+id/state" 
+			    android:textColor="@color/help_view"
+			    android:layout_width="wrap_content"
+			    android:gravity="center_vertical"
+			    android:layout_height="30dp"
+			    android:layout_marginRight="12dp"/>
+			<TextView 
+			    android:id="@+id/ptime" 
+			    android:textColor="@color/help_view"
+			    android:layout_width="wrap_content"
+			    android:minWidth="90dp"
+			    android:gravity="center_vertical"
+			    android:layout_height="30dp"
+			    android:layout_marginRight="12dp"/>		
+	
+</LinearLayout>

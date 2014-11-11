@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+	    android:id="@+id/TitleBar"
+	    android:text="活动易"
+	    android:textSize="20dp"
+	    android:textColor="@color/encode_view"
+	    android:background="#007ec9"
+	    android:gravity="center_vertical|center"
+	    android:layout_width="match_parent"
+	    android:layout_height="44dp" >
+	</TextView>
+	
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:scrollbars="none"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="250dp"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="15dp"
+		        android:text="如何获得检票账户"
+		        android:textSize="22dp"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textColor="@color/sbc_header_text" />
+
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="250dp"
+		        android:layout_height="20dp"
+		        android:layout_marginTop="15dp"
+		        android:textSize="12dp"
+		        android:gravity="center_vertical"
+		        android:text="1、登录活动易,进入“管理活动”栏目; "
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textColor="@color/sbc_header_text" />
+		    
+		   <TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="250dp"
+			    android:layout_height="20dp"
+			    android:textSize="12dp"
+			    android:gravity="center_vertical"
+			    android:text="2 、选择需要验票的活动,点击“管理”; "
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="@color/sbc_header_text" />
+		
+		   
+		
+		   <TextView
+		       android:id="@+id/textView4"
+		       android:layout_width="250dp"
+		       android:layout_height="20dp"
+		       android:gravity="center_vertical"
+		       android:text="3 、进入左导航”售票管理>验票程序”;"
+		       android:textAppearance="?android:attr/textAppearanceMedium"
+		       android:textColor="@color/sbc_header_text"
+		       android:textSize="12dp" />
+		
+		   <TextView
+		       android:id="@+id/textView5"
+		       android:layout_width="250dp"
+		       android:layout_height="20dp"
+		       android:gravity="center_vertical"
+		       android:text="4 、点击手机客户端验票的“进入”按钮; "
+		       android:textAppearance="?android:attr/textAppearanceMedium"
+		       android:textColor="@color/sbc_header_text"
+		       android:textSize="12dp" />
+		   
+		   <TextView
+		       android:id="@+id/textView6"
+		       android:layout_width="250dp"
+		       android:layout_height="20dp"
+		       android:gravity="center_vertical"
+		       android:text="5 、在“联网验票”中查看对应帐户;"
+		       android:textAppearance="?android:attr/textAppearanceMedium"
+		       android:textColor="@color/sbc_header_text"
+		       android:textSize="12dp" />
+		   
+		   <TextView
+		       android:id="@+id/textView7"
+		       android:layout_width="250dp"
+		       android:layout_height="20dp"
+		       android:layout_marginBottom="20dp"
+		       android:gravity="center_vertical"
+		       android:text="6 、输入手机号,以短信方式发送帐户。"
+		       android:textAppearance="?android:attr/textAppearanceMedium"
+		       android:textColor="@color/sbc_header_text"
+		       android:textSize="12dp" />
+		            
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

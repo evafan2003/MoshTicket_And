@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">活动易验票</string>
+    <string name="include_file">检验号码</string>
+    <string name="delete_date">清除数据</string>
+    <string name="include_info">数据已经存在，请先清除再导入</string>
+    <string name="delete_ok">数据清除完成</string>
+    <string name="include_ok">导人完成</string>
+    <string name="number">号码</string>
+    <string name="is_not_find">没有找到</string>
+    <string name="is_use">已经使用过！</string>
+    <string name="is_no_user">验证通过</string>
+    <string name="incelud_over">导入完成</string>
+    <string name="real_del">删除后无法恢复，确认删除么？</string>
+    <string name="yes">确认</string>
+    <string name="no">取消</string>
+    <string name="include_before">请先导入数据</string>
+    <string name="data_is_null">没有可用数据</string>
+    <string name="out_ok">导出结束</string>
+    <string name="include_ing">导入中，请等待</string>
+    <string name="type_error">文件类型错误</string>
+    
+    <string name="login_title">联网登陆</string>
+    <string name="account">检票账号</string>
+    <string name="password">检票密码</string>
+    <string name="how_to_get_an_account">如何获得检票账号？</string>
+    <string name="login">登录</string>
+    <string name="login_online">联机检票（需联网）</string>
+    <string name="login_text1">联机模式支持多手机共同验票，并实时更新</string>
+    <string name="login_text2">脱机模式无需联网即可验票，但无法与其他验票终端配合，验票结果可在网络恢复后重新登录，数据自动上传至服务器</string>
+    <string name="login_text3">联机检票（需联网）</string>
+</resources>
